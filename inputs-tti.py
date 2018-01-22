@@ -70,6 +70,9 @@ if __name__ == '__main__':
     _images = []
     totalwidth = 0
     for i in range(len(_result)):
+        if _result[i] == "newline":
+            print "yeaaah"
+            continue
         _images.append(pygame.image.load(_result[i]))
         totalwidth += _width[_result[i][7:-4]]
     dimensions = (totalwidth, 120)

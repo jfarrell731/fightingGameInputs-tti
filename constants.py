@@ -19,7 +19,8 @@ _available = "\
 \ts, spd, srk,\n\
 \ttilde[~],\n\
 \tup[8], upleft[7], upright[9],\n\
-\txx"
+\txx,\n\
+\tNEWLINE"
 
 _input = {
 		'lpmp': path + 'lpmp.png',
@@ -67,6 +68,7 @@ _input = {
 		'upleft': path + 'upleft.png',
 		'upright': path + 'upright.png',
 		'xx': path + 'xx.png',
+                'NEWLINE': 'NEWLINE',
 }
 
 _width = {
@@ -115,4 +117,5 @@ _width = {
 		'upleft': 60,
 		'upright': 68,
 		'xx': 71,
+                'NEWLINE': 'NEWLINE',
 }
